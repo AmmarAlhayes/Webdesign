@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="../Css/formular-stylen.css">
+        <title>formular</title>
+    </head>
+    <body>
+        <div id="bar">Navbar</div>
+        <div>
+            <form action="/register.php" id="form">
+                <fieldset>
+                    <label for="uname">Benutzername</label>
+                    <input class="field" type="text" id="uname" name="username" placeholder="Dein Benutzername..">
+                    <label id="password">Passwort</label>
+                    <input class="field" type="password" id="password" name="password" placeholder="Dein Passwort...">
+                    <label for="alter">Wie alt bist du?</label>
+                    <select class="field" name="alter">
+                        <option value="Unter 20">Unter 20</option>
+                        <option value="Zwichen 20 und 30">Zwichen 20 und 30</option>
+                        <option value="Über 30">Über 30</option>
+                    </select>
+                    <input id="submit" type="submit" value="Registrieren">
+                </fieldset>
+            </form>
+            <div id="position"><a href="#form">Up</a></div>
+        </div>
+
+    </body>
+</html>

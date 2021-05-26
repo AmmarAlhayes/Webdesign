@@ -1,0 +1,60 @@
+body{
+    height: 5000px;
+}
+#bar{
+    width: 100%;
+    padding: 15px;
+    background-color: tomato;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    margin: 5px 0px;
+}
+fieldset{
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: none;
+}
+.field{
+    display: block;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#submit{
+    margin: 10px 0px;
+    width: 100%;
+    background-color: palevioletred;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+#position{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: coral;
+    border-radius: 20px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
